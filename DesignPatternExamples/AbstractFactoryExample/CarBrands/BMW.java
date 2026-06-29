@@ -1,6 +1,5 @@
 package DesignPatternExamples.AbstractFactoryExample.CarBrands;
 
-import DesignPatternExamples.FactoryExample.Vehicle;
 
 public class BMW implements Vehicle {
     @Override

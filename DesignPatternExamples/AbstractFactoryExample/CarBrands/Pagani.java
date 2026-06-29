@@ -1,6 +1,5 @@
 package DesignPatternExamples.AbstractFactoryExample.CarBrands;
 
-import DesignPatternExamples.FactoryExample.Vehicle;
 
 public class Pagani implements Vehicle {
 
