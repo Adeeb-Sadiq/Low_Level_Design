@@ -1,4 +1,4 @@
-package DesignPatternExamples.BuilderExample;
+package DesignPatternExamples.builder;
 
 public class Car {
     private String engine;

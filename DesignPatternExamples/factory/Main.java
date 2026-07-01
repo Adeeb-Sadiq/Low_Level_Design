@@ -1,4 +1,4 @@
-package DesignPatternExamples.FactoryExample;
+package DesignPatternExamples.factory;
 
 public class Main {
     static void main() {

@@ -1,4 +1,4 @@
-package DesignPatternExamples.BuilderExample;
+package DesignPatternExamples.builder;
 
 public class Main {
     static void main() {

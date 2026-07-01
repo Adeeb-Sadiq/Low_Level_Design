@@ -1,10 +1,10 @@
-package DesignPatternExamples.AbstractFactoryExample;
+package DesignPatternExamples.abstract_factory;
 
-import DesignPatternExamples.AbstractFactoryExample.CarBrands.Vehicle;
-import DesignPatternExamples.AbstractFactoryExample.CarFactories.BMWFactory;
-import DesignPatternExamples.AbstractFactoryExample.CarFactories.HyundaiFactory;
-import DesignPatternExamples.AbstractFactoryExample.CarFactories.PaganiFactory;
-import DesignPatternExamples.AbstractFactoryExample.CarFactories.VehicleFactory;
+import DesignPatternExamples.abstract_factory.CarBrands.Vehicle;
+import DesignPatternExamples.abstract_factory.CarFactories.BMWFactory;
+import DesignPatternExamples.abstract_factory.CarFactories.HyundaiFactory;
+import DesignPatternExamples.abstract_factory.CarFactories.PaganiFactory;
+import DesignPatternExamples.abstract_factory.CarFactories.VehicleFactory;
 
 public class Main {
     static void main() {

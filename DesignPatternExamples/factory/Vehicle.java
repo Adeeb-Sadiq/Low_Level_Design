@@ -1,4 +1,4 @@
-package DesignPatternExamples.FactoryExample;
+package DesignPatternExamples.factory;
 
 public interface Vehicle {
     void start();
