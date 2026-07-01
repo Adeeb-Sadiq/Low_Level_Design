@@ -6,7 +6,13 @@ public class Logger {
 
     public static Logger getLogger() {
         if (instance == null) {
-            instance = new Logger();
+            // Thread safety / avoid race condition
+            synchronized (Logger.class) {
+                if(instance == null) {
+                    instance = new Logger();
+                    System.out.println("NEW INSTANCE OF LOGGER IS BEEN CREATED");
+                }
+            }
         }
         return instance;
     }
